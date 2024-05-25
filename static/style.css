@@ -1,0 +1,115 @@
+body {
+    background: linear-gradient(to right, #f8f9fa, #e0e0e0);
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+}
+
+h1, h2 {
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+ul.list-group {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+.urgent {
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.regular {
+    border: 2px solid green;
+    border-radius: 8px;
+}
+
+.input-lg {
+    font-size: 1.25rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.list-group-item {
+    font-size: 1.25rem;
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.completed {
+    text-decoration: line-through;
+    color: grey;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.text-muted {
+    font-size: 0.875rem;
+}
+
+.edit-input {
+    display: none;
+}
+
+.edit-btn, .edit-save {
+    margin-left: 10px;
+}
+
+.btn {
+    border-radius: 8px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    border-color: #007bff;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    border-color: #004085;
+}
+
+.btn-secondary {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268;
+    border-color: #545b62;
+}
+
+.btn-danger {
+    background-color: #dc3545;
+    border-color: #dc3545;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-danger:hover {
+    background-color: #c82333;
+    border-color: #bd2130;
+}
+
+.btn-success {
+    background-color: #28a745;
+    border-color: #28a745;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.btn-success:hover {
+    background-color: #218838;
+    border-color: #1e7e34;
+}
